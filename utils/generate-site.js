@@ -12,7 +12,6 @@ const writeFile = (fileContent) => {
 
       //if everythng went well, resolve the Promise and send the successful data to the `.than()` method
       resolve({
-        ok: true,
         message: "File created!",
       });
     });
@@ -28,7 +27,6 @@ const copyFile = () => {
       }
 
       resolve({
-        ok: true,
         message: "Stylesheet created!",
       });
     });
